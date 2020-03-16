@@ -1,19 +1,9 @@
-html, body {
-    height: 100%;
-  }
+body, .sticky-footer-wrapper {
+  min-height:100vh;
+}
 
-  body {
-    display: flex;
-    flex-direction: column;
-  }
+.flex-fill {
+  flex:1 1 auto;
+}
 
-  main {
-    flex: 1 0 auto;
-  }
-
-  .footer {
-    flex-shrink: 0;
-    text-align: center;
-  }
-
-  /* Sticky Footer Help: https://css-tricks.com/couple-takes-sticky-footer/ */
+/* Sticky Footer Resource: https://stackoverflow.com/questions/46722697/bootstrap-4-sticky-footer-not-sticking */
