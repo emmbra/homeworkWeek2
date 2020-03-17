@@ -12,6 +12,33 @@
     <link rel="stylesheet" href="./Assets/css/">
 
     <title>Portfolio | Emmett Brady</title>
+
+
+    <!-- Why won't styling work in my css file? -->
+    <style>
+        .image {
+            position: relative;
+            display: inline-block;
+            /* Make the width of box same as image */
+        }
+
+        .image .text {
+            position: absolute;
+            z-index: 999;
+            margin: 0 auto;
+            left: 0;
+            right: 0;
+            text-align: center;
+            top: 80%;
+            /* Adjust this value to move the positioned div up and down */
+            background: rgba(0, 0, 0, 0.8);
+            font-family: Arial, sans-serif;
+            color: #fff;
+            width: 100%;
+            /* Set the width of the positioned div */
+        }
+    </style>
+
 </head>
 
 <body class="d-flex flex-column sticky-footer-wrapper bg-light">
@@ -40,44 +67,51 @@
         <h1>Portfolio</h1>
         <hr>
         <div class="row">
-            <div class="col-xl-4 col-lg-6 col-md-6">
-                <div class="card" style="width: 18rem; margin-bottom: 30px">
-                    <img class="card-img-top img-fluid" src="https://picsum.photos/150/100" alt="Project 1">
-                    <div class="card-body">
-                        <p class="card-text">Project 1</p>
+            <div class="col-xl-6 col-lg-8 col-md-10">
+                <div class="image mb-3 mr-2">
+                    <img class="img-fluid" src="https://picsum.photos/200/200" alt="Project 1">
+                    <div class="text">
+                        Project 1
                     </div>
                 </div>
-                <div class="card" style="width: 18rem; margin-bottom: 30px">
-                    <img class="card-img-top img-fluid" src="https://picsum.photos/150/100" alt="Project 2">
-                    <div class="card-body">
-                        <p class="card-text">Project 2</p>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem; margin-bottom: 30px">
-                    <img class="card-img-top img-fluid" src="https://picsum.photos/150/100" alt="Project 3">
-                    <div class="card-body">
-                        <p class="card-text">Project 3</p>
+                <div class="image mb-3">
+                    <img class=" img-fluid" src="https://picsum.photos/200/200" alt="Project 2">
+                    <div class="text">
+                        Project 2
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="col-xl-4 col-lg-6 col-md-6">
-                <div class="card" style="width: 18rem; margin-bottom: 30px">
-                    <img class="card-img-top img-fluid" src="https://picsum.photos/150/100" alt="Project 4">
-                    <div class="card-body">
-                        <p class="card-text">Project 4</p>
+        <div class="row">
+            <div class="col-xl-6 col-lg-8 col-md-10">
+                <div class="image mb-3 mr-2">
+                    <img class=" img-fluid" src="https://picsum.photos/200/200" alt="Project 3">
+                    <div class="text">
+                        Project 3
                     </div>
                 </div>
-                <div class="card" style="width: 18rem; margin-bottom: 30px">
-                    <img class="card-img-top img-fluid" src="https://picsum.photos/150/100" alt="Project 5">
-                    <div class="card-body">
-                        <p class="card-text">Project 5</p>
+                <div class="image mb-3">
+                    <img class=" img-fluid" src="https://picsum.photos/200/200" alt="Project 3">
+                    <div class="text">
+                        Project 4
                     </div>
                 </div>
-                <div class="card" style="width: 18rem; margin-bottom: 30px">
-                    <img class="card-img-top img-fluid" src="https://picsum.photos/150/100" alt="Project 6">
-                    <div class="card-body">
-                        <p class="card-text">Project 6</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xl-6 col-lg-8 col-md-10">
+                <div class="image mb-3 mr-2">
+                    <img class="img-fluid" src="https://picsum.photos/200/200" alt="Project 1">
+                    <div class="text">
+                        Project 5
+                    </div>
+                </div>
+                <div class="image mb-3">
+                    <img class=" img-fluid" src="https://picsum.photos/200/200" alt="Project 2">
+                    <div class="text">
+                        Project 6
                     </div>
                 </div>
             </div>
