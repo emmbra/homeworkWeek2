@@ -1,20 +1,6 @@
-*Name and live url
-*Description
-	1. What does the app do?
-	2. How does it work?
-*Technologies
-	1. Languages, frameworks, various tools
-*Challenges
-	1. Your experience building this app
-	2. What was difficult
-	3. What did you learn
-	4. How did you go about solving a problem
-*Screenshot
-	1. Live app, not code
-
 # CSS and Bootstrap Responsive Portfolio
 
-[https://emmbra.github.io/homeworkWeek2/index.html](https://emmbra.github.io/homeworkWeek2/index.html)
+[CSS and Bootstrap Responsive Portfolio](https://emmbra.github.io/homeworkWeek2/index.html)
 
 ## Description
 
