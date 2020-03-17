@@ -40,11 +40,11 @@ What a I learned along the way is that I don't know what I don't know! Through e
 
 ## Screenshots
 
-![Image of About](https://octodex.github.com/images/yaktocat.png)
+![Image of About](https://github.com/emmbra/homeworkWeek2/blob/master/Assets/Images/screenshot-about-me.png)
 
-![Image of Portfolio](https://octodex.github.com/images/yaktocat.png)
+![Image of Portfolio](https://github.com/emmbra/homeworkWeek2/blob/master/Assets/Images/screenshot-portfolio.png)
 
-![Image of Contact](https://octodex.github.com/images/yaktocat.png)
+![Image of Contact](https://github.com/emmbra/homeworkWeek2/blob/master/Assets/Images/screenshot-contact.png)
 
 ## Credits
 
