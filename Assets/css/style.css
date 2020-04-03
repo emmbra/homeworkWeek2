@@ -3,6 +3,10 @@ body {
   height: 100%;
 }
 
+a {
+  color: white;
+}
+
 .image {
   position: relative;
   display: inline-block;
